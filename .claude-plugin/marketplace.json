@@ -1,9 +1,8 @@
 {
-  "name": "superpowers-dev",
-  "description": "Development marketplace for Superpowers core skills library",
+  "name": "superpowers",
+  "description": "Superpowers skills library for Claude Code (AdityaVG13 fork)",
   "owner": {
-    "name": "Jesse Vincent",
-    "email": "jesse@fsck.com"
+    "name": "AdityaVG13"
   },
   "plugins": [
     {
@@ -14,7 +13,8 @@
       "author": {
         "name": "Jesse Vincent",
         "email": "jesse@fsck.com"
-      }
+      },
+      "repository": "https://github.com/AdityaVG13/superpowers"
     }
   ]
 }
