@@ -113,3 +113,43 @@ The skill itself tells you which.
 ## User Instructions
 
 Instructions say WHAT, not HOW. "Add X" or "Fix Y" doesn't mean skip workflows.
+
+## Available Skills
+
+### Process Skills (invoke first)
+| Skill | When to Use |
+|---|---|
+| **brainstorming** | Before any creative work — features, components, modifications |
+| **deliberation** | Before brainstorming when the problem space itself is unclear |
+| **premise-check** | Before designing or building anything non-trivial |
+| **writing-plans** | When you have specs/requirements for a multi-step task |
+| **systematic-debugging** | When encountering any bug, test failure, or unexpected behavior |
+| **verification-before-completion** | Before claiming work is complete or fixed |
+
+### Implementation Skills (invoke second)
+| Skill | When to Use |
+|---|---|
+| **test-driven-development** | When implementing any feature or bugfix |
+| **frontend-design** | When building any user-visible UI component |
+| **executing-plans** | When executing a written implementation plan |
+| **subagent-driven-development** | When executing plans with independent tasks |
+| **dispatching-parallel-agents** | When facing 2+ independent tasks |
+| **using-git-worktrees** | When starting feature work that needs isolation |
+| **finishing-a-development-branch** | When implementation is complete and ready to integrate |
+| **requesting-code-review** | Before merging or after completing major features |
+| **receiving-code-review** | When responding to code review feedback |
+| **claude-md-creator** | When setting up or updating a project's CLAUDE.md |
+
+### Background Skills (always active, not invoked)
+| Skill | What It Does |
+|---|---|
+| **token-efficiency** | Minimizes token waste across all sessions |
+| **self-consistency-reasoner** | Multi-path reasoning for high-stakes inference |
+| **error-recovery** | Known-issues lookup before debugging |
+| **context-management** | Session state persistence (user-invoked only) |
+
+### Meta Skills
+| Skill | When to Use |
+|---|---|
+| **using-superpowers** | Session start — skill routing and discovery |
+| **writing-skills** | When creating or editing skills |
